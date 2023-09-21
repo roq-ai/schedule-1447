@@ -1,0 +1,2522 @@
+[
+  {
+    "team_member": [
+      {
+        "id": "6eb754e5-def8-4120-91e5-bc98677bc1e1",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T14:19:43.224Z",
+        "end_date": "2023-09-21T04:46:08.658Z",
+        "created_at": "2023-09-21T08:06:00.255Z",
+        "updated_at": "2023-09-20T17:52:53.579Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c41af86e-d8f4-46e3-ac4d-721bdc74c0ca",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T17:41:50.321Z",
+        "end_date": "2023-09-20T23:00:46.441Z",
+        "created_at": "2023-09-21T01:04:36.771Z",
+        "updated_at": "2023-09-20T21:31:38.959Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9017c24-f438-4e40-9797-b94f915a0997",
+        "team_name": "Development",
+        "role": "Analyst",
+        "start_date": "2023-09-21T06:37:35.894Z",
+        "end_date": "2023-09-21T02:23:35.801Z",
+        "created_at": "2023-09-21T06:17:33.518Z",
+        "updated_at": "2023-09-20T12:43:10.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b44c76c-8662-486b-9863-c14c4ec16c15",
+        "team_name": "Finance",
+        "role": "Specialist",
+        "start_date": "2023-09-21T01:35:33.194Z",
+        "end_date": "2023-09-20T23:53:26.766Z",
+        "created_at": "2023-09-20T18:50:29.229Z",
+        "updated_at": "2023-09-20T10:27:06.537Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e2d2b5c-70bc-44ad-bb45-ce35c2dd720a",
+        "team_name": "Operations",
+        "role": "Assistant",
+        "start_date": "2023-09-20T16:45:45.794Z",
+        "end_date": "2023-09-21T08:36:50.416Z",
+        "created_at": "2023-09-20T23:13:37.488Z",
+        "updated_at": "2023-09-20T12:42:19.830Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "4680e00f-7da1-4654-969c-fc63f9ef6774",
+        "name": "Conference Room A",
+        "location": "Floor 10",
+        "capacity": 91828,
+        "description": "Modern and spacious room",
+        "created_at": "2023-09-20T09:21:38.009Z",
+        "updated_at": "2023-09-20T18:51:53.503Z"
+      },
+      {
+        "id": "62b6fea0-6f73-4a08-bb17-249da27551c5",
+        "name": "Meeting Room B",
+        "location": "Floor 5",
+        "capacity": 69976,
+        "description": "Well-equipped with audiovisual facilities",
+        "created_at": "2023-09-21T01:47:12.372Z",
+        "updated_at": "2023-09-20T10:34:01.810Z"
+      },
+      {
+        "id": "00a986ed-fa88-4004-bb83-5f3a1d7cfdf6",
+        "name": "Boardroom C",
+        "location": "Floor 3",
+        "capacity": 34765,
+        "description": "Ideal for small meetings",
+        "created_at": "2023-09-20T19:54:57.156Z",
+        "updated_at": "2023-09-20T22:47:02.925Z"
+      },
+      {
+        "id": "ca06c041-360f-4571-889b-d0256f3181ac",
+        "name": "Training Room D",
+        "location": "Floor 8",
+        "capacity": 62855,
+        "description": "Natural lighting and comfortable seating",
+        "created_at": "2023-09-20T19:37:37.418Z",
+        "updated_at": "2023-09-20T18:52:55.322Z"
+      },
+      {
+        "id": "cfc555da-040e-4c04-86c1-c246d743694c",
+        "name": "Breakout Room E",
+        "location": "Floor 2",
+        "capacity": 71284,
+        "description": "Perfect for brainstorming sessions",
+        "created_at": "2023-09-21T06:25:32.754Z",
+        "updated_at": "2023-09-21T02:48:56.506Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e4a38c1d-9767-4dbf-b10f-c36e1156e59f",
+        "title": "Team Meeting",
+        "start_time": "2023-09-20T17:18:26.837Z",
+        "end_time": "2023-09-20T22:24:44.587Z",
+        "created_at": "2023-09-20T16:16:10.231Z",
+        "updated_at": "2023-09-20T12:55:53.203Z",
+        "room_id": "ca06c041-360f-4571-889b-d0256f3181ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13344325-1bf2-44ea-bf62-f6eeeafc3675",
+        "title": "Client Presentation",
+        "start_time": "2023-09-21T01:00:56.926Z",
+        "end_time": "2023-09-20T10:09:40.849Z",
+        "created_at": "2023-09-21T06:24:14.839Z",
+        "updated_at": "2023-09-20T23:04:59.199Z",
+        "room_id": "4680e00f-7da1-4654-969c-fc63f9ef6774",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38070b9f-4a17-43f9-aa5d-fb6f4f74ae47",
+        "title": "Training Session",
+        "start_time": "2023-09-20T23:51:36.476Z",
+        "end_time": "2023-09-21T02:29:36.665Z",
+        "created_at": "2023-09-21T00:54:46.764Z",
+        "updated_at": "2023-09-20T22:42:57.781Z",
+        "room_id": "62b6fea0-6f73-4a08-bb17-249da27551c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50ec434f-078c-4c57-989d-d456463a808c",
+        "title": "Project Discussion",
+        "start_time": "2023-09-21T04:35:19.086Z",
+        "end_time": "2023-09-21T03:58:25.669Z",
+        "created_at": "2023-09-21T03:54:18.965Z",
+        "updated_at": "2023-09-20T14:31:17.325Z",
+        "room_id": "62b6fea0-6f73-4a08-bb17-249da27551c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f79f065e-d430-4311-9fdf-5a54fdee2940",
+        "title": "Board Meeting",
+        "start_time": "2023-09-20T11:41:42.380Z",
+        "end_time": "2023-09-20T13:53:55.232Z",
+        "created_at": "2023-09-20T21:43:08.297Z",
+        "updated_at": "2023-09-21T04:21:08.229Z",
+        "room_id": "00a986ed-fa88-4004-bb83-5f3a1d7cfdf6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "b792677f-748c-4ee9-95c5-2fa1467253fa",
+        "name": "Team Building Exercise",
+        "description": "Engaging and interactive session",
+        "start_time": "2023-09-20T20:24:05.000Z",
+        "end_time": "2023-09-20T22:09:18.922Z",
+        "created_at": "2023-09-20T11:19:43.755Z",
+        "updated_at": "2023-09-20T22:38:39.418Z",
+        "room_id": "ca06c041-360f-4571-889b-d0256f3181ac"
+      },
+      {
+        "id": "0e50c5ed-d416-497e-b0f2-422a3c872a2a",
+        "name": "Workshop on Leadership",
+        "description": "Developing leadership skills",
+        "start_time": "2023-09-20T10:22:23.345Z",
+        "end_time": "2023-09-21T04:08:26.320Z",
+        "created_at": "2023-09-20T20:25:07.195Z",
+        "updated_at": "2023-09-20T10:17:12.030Z",
+        "room_id": "cfc555da-040e-4c04-86c1-c246d743694c"
+      },
+      {
+        "id": "300859f2-89c0-412b-a76c-3d6051070599",
+        "name": "Networking Event",
+        "description": "Connecting with industry professionals",
+        "start_time": "2023-09-20T18:07:49.092Z",
+        "end_time": "2023-09-20T10:16:18.115Z",
+        "created_at": "2023-09-20T10:58:25.511Z",
+        "updated_at": "2023-09-20T09:09:09.864Z",
+        "room_id": "00a986ed-fa88-4004-bb83-5f3a1d7cfdf6"
+      },
+      {
+        "id": "aa0817e6-8db5-4ce2-9053-309080a14b24",
+        "name": "Industry Conference",
+        "description": "Exploring latest trends and innovations",
+        "start_time": "2023-09-20T23:24:26.370Z",
+        "end_time": "2023-09-21T00:02:46.556Z",
+        "created_at": "2023-09-20T17:04:17.281Z",
+        "updated_at": "2023-09-20T16:53:25.971Z",
+        "room_id": "ca06c041-360f-4571-889b-d0256f3181ac"
+      },
+      {
+        "id": "ae4e6a6c-c4e5-40fd-aeb1-1fa42266a54f",
+        "name": "Product Launch",
+        "description": "Unveiling new product features",
+        "start_time": "2023-09-20T15:28:26.525Z",
+        "end_time": "2023-09-20T09:22:03.957Z",
+        "created_at": "2023-09-21T07:01:46.308Z",
+        "updated_at": "2023-09-20T10:49:16.448Z",
+        "room_id": "4680e00f-7da1-4654-969c-fc63f9ef6774"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cc1681cf-17fc-44b5-86ba-751ccde66941",
+        "email": "Dulce.Gerlach73@roq.tech",
+        "firstName": "Lewis",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78718952",
+        "tenantId": null
+      },
+      {
+        "reference": "46a5af23-1247-4af8-b004-0e971779d7c8",
+        "email": "Frankie_Keebler@roq.tech",
+        "firstName": "Leta",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/854.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d1e96ca-621c-4dae-8228-6ba85d864f62",
+        "email": "Rex30@roq.tech",
+        "firstName": "Beau",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96385478",
+        "tenantId": null
+      },
+      {
+        "reference": "c338bb9d-8ac8-4cbb-8096-54bc4f362a87",
+        "email": "Brennan77@roq.tech",
+        "firstName": "Hilbert",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37368086",
+        "tenantId": null
+      },
+      {
+        "reference": "f348ebce-bf0c-40e6-9dd7-24011180467b",
+        "email": "Bria36@roq.tech",
+        "firstName": "Allison",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1339642",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "889de271-f539-4a60-9357-9d2a8fefb9aa",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T12:43:41.968Z",
+        "end_date": "2023-09-20T11:36:19.215Z",
+        "created_at": "2023-09-20T12:41:27.845Z",
+        "updated_at": "2023-09-21T06:50:38.348Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65b698de-48a7-463c-b648-732e7ccbc7cc",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-21T07:38:52.958Z",
+        "end_date": "2023-09-20T14:57:49.185Z",
+        "created_at": "2023-09-20T22:02:47.873Z",
+        "updated_at": "2023-09-20T17:58:46.289Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46eb23c9-7e5c-4024-9ddf-9c798fc9f5ea",
+        "team_name": "Product",
+        "role": "Developer",
+        "start_date": "2023-09-20T14:46:12.034Z",
+        "end_date": "2023-09-20T09:17:35.229Z",
+        "created_at": "2023-09-21T03:35:27.589Z",
+        "updated_at": "2023-09-20T11:14:43.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e462ee61-328e-4d73-a682-ce84bb27a325",
+        "team_name": "Engineering",
+        "role": "Analyst",
+        "start_date": "2023-09-20T23:29:46.418Z",
+        "end_date": "2023-09-20T12:13:52.841Z",
+        "created_at": "2023-09-20T15:13:01.136Z",
+        "updated_at": "2023-09-20T13:42:58.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f060f32-ec3b-47a2-a6eb-d67bf5c0de59",
+        "team_name": "Finance",
+        "role": "Accountant",
+        "start_date": "2023-09-21T03:03:31.320Z",
+        "end_date": "2023-09-20T11:50:28.377Z",
+        "created_at": "2023-09-20T18:38:19.448Z",
+        "updated_at": "2023-09-20T10:55:06.809Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "e5ee70d6-23b1-46aa-8ed6-d3bf4b6617e2",
+        "name": "Conference Room A",
+        "location": "Floor 10",
+        "capacity": 524,
+        "description": "Modern and spacious room with natural light",
+        "created_at": "2023-09-21T01:05:13.229Z",
+        "updated_at": "2023-09-20T22:05:25.266Z"
+      },
+      {
+        "id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5",
+        "name": "Meeting Room B",
+        "location": "Floor 5",
+        "capacity": 66155,
+        "description": "Cozy room with comfortable seating",
+        "created_at": "2023-09-20T09:29:09.140Z",
+        "updated_at": "2023-09-20T13:58:34.418Z"
+      },
+      {
+        "id": "58c1bbfd-2c04-438d-a7d4-8c655f98b116",
+        "name": "Boardroom C",
+        "location": "Floor 3",
+        "capacity": 86744,
+        "description": "Professional room with audio-visual equipment",
+        "created_at": "2023-09-20T13:37:13.436Z",
+        "updated_at": "2023-09-21T00:33:02.813Z"
+      },
+      {
+        "id": "a258ae7c-7e59-4039-b08f-eb0a33963002",
+        "name": "Training Room D",
+        "location": "Basement",
+        "capacity": 70639,
+        "description": "Versatile room suitable for various purposes",
+        "created_at": "2023-09-21T01:39:24.564Z",
+        "updated_at": "2023-09-20T16:24:00.162Z"
+      },
+      {
+        "id": "bcd1dcfa-ec16-4af9-9596-12491a6f9cd9",
+        "name": "Breakout Room E",
+        "location": "Penthouse",
+        "capacity": 33825,
+        "description": "Relaxing room with a calming atmosphere",
+        "created_at": "2023-09-21T07:04:31.823Z",
+        "updated_at": "2023-09-20T18:47:37.827Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "28e271bb-c4a3-434f-bbac-933b77d6a631",
+        "title": "Marketing Meeting",
+        "start_time": "2023-09-20T12:26:25.196Z",
+        "end_time": "2023-09-20T10:37:52.940Z",
+        "created_at": "2023-09-20T21:01:29.305Z",
+        "updated_at": "2023-09-20T16:30:30.158Z",
+        "room_id": "e5ee70d6-23b1-46aa-8ed6-d3bf4b6617e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9868bff-1f8c-40b8-9908-8b8226394af7",
+        "title": "Sales Presentation",
+        "start_time": "2023-09-20T23:36:34.121Z",
+        "end_time": "2023-09-20T22:49:54.717Z",
+        "created_at": "2023-09-20T14:31:17.466Z",
+        "updated_at": "2023-09-21T00:48:47.110Z",
+        "room_id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9669f4e-e03b-4298-b4a2-676f6e85686a",
+        "title": "Product Demo",
+        "start_time": "2023-09-21T01:07:38.537Z",
+        "end_time": "2023-09-20T15:15:42.857Z",
+        "created_at": "2023-09-21T03:39:09.821Z",
+        "updated_at": "2023-09-20T20:44:30.146Z",
+        "room_id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f21ee43-93d8-4395-a614-f91696f4c179",
+        "title": "Engineering Workshop",
+        "start_time": "2023-09-20T19:59:08.207Z",
+        "end_time": "2023-09-20T17:28:37.482Z",
+        "created_at": "2023-09-20T10:09:10.493Z",
+        "updated_at": "2023-09-20T12:48:36.711Z",
+        "room_id": "bcd1dcfa-ec16-4af9-9596-12491a6f9cd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "031ab322-5991-44d3-a35a-106f1b876244",
+        "title": "Finance Discussion",
+        "start_time": "2023-09-20T20:38:32.725Z",
+        "end_time": "2023-09-20T18:56:53.894Z",
+        "created_at": "2023-09-21T02:05:51.941Z",
+        "updated_at": "2023-09-21T05:02:56.031Z",
+        "room_id": "a258ae7c-7e59-4039-b08f-eb0a33963002",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "190979e5-1ec5-479c-8095-0d9d2709c50a",
+        "name": "Team Building Exercise",
+        "description": "Engaging activity to foster team spirit",
+        "start_time": "2023-09-20T19:58:40.992Z",
+        "end_time": "2023-09-20T19:59:56.718Z",
+        "created_at": "2023-09-20T20:34:00.594Z",
+        "updated_at": "2023-09-20T10:49:05.767Z",
+        "room_id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5"
+      },
+      {
+        "id": "c98df7f5-cada-41bd-b5da-7fe7788301ab",
+        "name": "Training Session",
+        "description": "Informative session to enhance skills",
+        "start_time": "2023-09-21T01:42:16.880Z",
+        "end_time": "2023-09-20T14:06:56.711Z",
+        "created_at": "2023-09-21T00:21:13.901Z",
+        "updated_at": "2023-09-20T19:07:50.841Z",
+        "room_id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5"
+      },
+      {
+        "id": "f388a100-c9c5-4f95-a651-4cd48b50cdd8",
+        "name": "Workshop",
+        "description": "Interactive session to learn new techniques",
+        "start_time": "2023-09-21T02:17:06.058Z",
+        "end_time": "2023-09-21T02:42:14.579Z",
+        "created_at": "2023-09-20T14:49:35.344Z",
+        "updated_at": "2023-09-20T18:44:24.481Z",
+        "room_id": "e5ee70d6-23b1-46aa-8ed6-d3bf4b6617e2"
+      },
+      {
+        "id": "0f5a5e12-d0ac-412b-8984-746947362fdd",
+        "name": "Brainstorming Session",
+        "description": "Creative session to generate ideas",
+        "start_time": "2023-09-20T21:47:43.793Z",
+        "end_time": "2023-09-20T12:03:11.027Z",
+        "created_at": "2023-09-20T17:35:18.716Z",
+        "updated_at": "2023-09-21T05:49:52.004Z",
+        "room_id": "5a6f20df-2e85-4fa8-b897-cb5029f15ce5"
+      },
+      {
+        "id": "1dc44d75-3cb4-4e80-b3e6-a21ef7c1fc6a",
+        "name": "Presentation",
+        "description": "Informal session to share insights",
+        "start_time": "2023-09-20T17:27:41.758Z",
+        "end_time": "2023-09-21T04:41:40.804Z",
+        "created_at": "2023-09-21T06:36:29.009Z",
+        "updated_at": "2023-09-21T07:17:04.672Z",
+        "room_id": "a258ae7c-7e59-4039-b08f-eb0a33963002"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d596aecc-15bb-4467-83f0-c218442a2b6a",
+        "email": "Sabryna.Ondricka@roq.tech",
+        "firstName": "Stacey",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/738.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa9e01a6-8d8a-49b0-8238-60fa524ffcca",
+        "email": "Colby_Konopelski9@roq.tech",
+        "firstName": "Syble",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26259052",
+        "tenantId": null
+      },
+      {
+        "reference": "317634e4-1fd0-45a0-8c72-f833c4bb2cde",
+        "email": "Tate_Auer@roq.tech",
+        "firstName": "Milton",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0817af82-4f91-4889-95b9-52e1b7391748",
+        "email": "Ettie_Lynch@roq.tech",
+        "firstName": "Quinton",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75223676",
+        "tenantId": null
+      },
+      {
+        "reference": "aaf6b45a-591c-4824-a1e2-058608c64e2b",
+        "email": "Moshe_Weissnat@roq.tech",
+        "firstName": "Kirsten",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/450.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "369a7228-a4e8-4fb3-a908-92b3c8f0b99d",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-21T02:46:07.031Z",
+        "end_date": "2023-09-21T08:44:33.441Z",
+        "created_at": "2023-09-20T13:24:24.488Z",
+        "updated_at": "2023-09-21T05:33:21.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50d383ec-fe96-43c4-9b15-e227e137dc9c",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T18:59:41.712Z",
+        "end_date": "2023-09-20T13:48:07.845Z",
+        "created_at": "2023-09-20T20:33:28.302Z",
+        "updated_at": "2023-09-20T09:51:23.395Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f75ab75c-ad92-4fda-923f-9580107d3c00",
+        "team_name": "Engineering",
+        "role": "Developer",
+        "start_date": "2023-09-20T14:28:21.553Z",
+        "end_date": "2023-09-21T02:07:34.925Z",
+        "created_at": "2023-09-21T01:12:20.709Z",
+        "updated_at": "2023-09-20T22:21:46.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de40d02e-93ca-4c6a-bad9-070d6ec2d3f9",
+        "team_name": "Finance",
+        "role": "Analyst",
+        "start_date": "2023-09-21T07:30:37.807Z",
+        "end_date": "2023-09-21T06:16:05.863Z",
+        "created_at": "2023-09-20T23:43:17.922Z",
+        "updated_at": "2023-09-21T07:32:03.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8abfeb5-31a5-45e2-9f2c-23d16c992a1c",
+        "team_name": "Operations",
+        "role": "Supervisor",
+        "start_date": "2023-09-21T08:31:31.453Z",
+        "end_date": "2023-09-20T20:46:49.917Z",
+        "created_at": "2023-09-20T14:44:14.493Z",
+        "updated_at": "2023-09-21T03:19:19.043Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "3803b52a-0361-44ba-a6c0-42caf990ad7e",
+        "name": "Conference Room 1",
+        "location": "Floor 5",
+        "capacity": 21130,
+        "description": "Spacious room with natural light",
+        "created_at": "2023-09-20T09:12:26.549Z",
+        "updated_at": "2023-09-21T07:44:12.123Z"
+      },
+      {
+        "id": "672c0181-35b2-46f0-b6d7-42bb05dcd432",
+        "name": "Meeting Room A",
+        "location": "Floor 2",
+        "capacity": 87719,
+        "description": "Modern and well-equipped",
+        "created_at": "2023-09-21T05:11:39.731Z",
+        "updated_at": "2023-09-21T03:13:09.462Z"
+      },
+      {
+        "id": "6e0476d4-6eca-47a7-98df-a57500475426",
+        "name": "Boardroom B",
+        "location": "Floor 3",
+        "capacity": 60226,
+        "description": "Perfect for small meetings",
+        "created_at": "2023-09-21T05:37:00.388Z",
+        "updated_at": "2023-09-20T20:37:50.855Z"
+      },
+      {
+        "id": "a39a9fd7-3537-44fd-9c8d-a8b39891378f",
+        "name": "Training Room 2",
+        "location": "Floor 1",
+        "capacity": 1514,
+        "description": "Quiet and comfortable",
+        "created_at": "2023-09-21T07:24:26.510Z",
+        "updated_at": "2023-09-20T22:14:58.760Z"
+      },
+      {
+        "id": "0bc3c344-8bd9-4d56-8066-13f1c926aa7c",
+        "name": "Breakout Room C",
+        "location": "Floor 4",
+        "capacity": 84683,
+        "description": "Ideal for brainstorming sessions",
+        "created_at": "2023-09-20T13:02:08.324Z",
+        "updated_at": "2023-09-21T00:13:44.003Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "388698ed-4cae-4739-9a1d-a95d3d5a2762",
+        "title": "Team Meeting",
+        "start_time": "2023-09-20T14:44:15.960Z",
+        "end_time": "2023-09-20T09:24:39.284Z",
+        "created_at": "2023-09-20T14:09:32.504Z",
+        "updated_at": "2023-09-20T12:43:10.627Z",
+        "room_id": "3803b52a-0361-44ba-a6c0-42caf990ad7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cfc1ce9-c96f-497a-a2ae-7f25400dc7e5",
+        "title": "Client Presentation",
+        "start_time": "2023-09-20T13:06:42.052Z",
+        "end_time": "2023-09-21T03:45:52.973Z",
+        "created_at": "2023-09-21T03:40:58.038Z",
+        "updated_at": "2023-09-20T09:44:24.048Z",
+        "room_id": "3803b52a-0361-44ba-a6c0-42caf990ad7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2a2d5f2-6cc4-44b6-af6e-5b8543e5e397",
+        "title": "Project Review",
+        "start_time": "2023-09-21T05:46:43.544Z",
+        "end_time": "2023-09-20T10:37:30.776Z",
+        "created_at": "2023-09-20T09:28:59.260Z",
+        "updated_at": "2023-09-21T06:49:22.696Z",
+        "room_id": "0bc3c344-8bd9-4d56-8066-13f1c926aa7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2566c826-2cba-47de-a1f1-983c73369afb",
+        "title": "Training Session",
+        "start_time": "2023-09-20T10:28:10.943Z",
+        "end_time": "2023-09-20T22:25:45.240Z",
+        "created_at": "2023-09-21T08:02:26.298Z",
+        "updated_at": "2023-09-20T23:37:43.440Z",
+        "room_id": "a39a9fd7-3537-44fd-9c8d-a8b39891378f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9e05b74-a9a0-4fc5-9a20-d94d3067c288",
+        "title": "Board Meeting",
+        "start_time": "2023-09-20T22:28:21.612Z",
+        "end_time": "2023-09-21T05:07:50.062Z",
+        "created_at": "2023-09-20T10:00:09.154Z",
+        "updated_at": "2023-09-20T10:13:28.123Z",
+        "room_id": "672c0181-35b2-46f0-b6d7-42bb05dcd432",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "88ff9171-ea9d-46a6-88d4-75f7bbefb132",
+        "name": "Team Building Exercise",
+        "description": "Engaging activity to foster team spirit",
+        "start_time": "2023-09-20T22:30:07.981Z",
+        "end_time": "2023-09-20T10:46:11.083Z",
+        "created_at": "2023-09-21T02:30:11.033Z",
+        "updated_at": "2023-09-21T01:51:47.288Z",
+        "room_id": "672c0181-35b2-46f0-b6d7-42bb05dcd432"
+      },
+      {
+        "id": "d2c17bf5-1409-4465-90aa-7f0d0361bef7",
+        "name": "Workshop on Innovation",
+        "description": "Interactive session to inspire creativity",
+        "start_time": "2023-09-21T01:37:53.245Z",
+        "end_time": "2023-09-20T21:13:39.784Z",
+        "created_at": "2023-09-20T17:06:22.774Z",
+        "updated_at": "2023-09-20T17:52:00.517Z",
+        "room_id": "3803b52a-0361-44ba-a6c0-42caf990ad7e"
+      },
+      {
+        "id": "58898415-3d0f-4d34-89ed-2908837fb809",
+        "name": "Networking Event",
+        "description": "Opportunity to connect with industry professionals",
+        "start_time": "2023-09-21T01:32:58.024Z",
+        "end_time": "2023-09-21T02:56:36.888Z",
+        "created_at": "2023-09-20T08:57:07.738Z",
+        "updated_at": "2023-09-20T20:02:54.480Z",
+        "room_id": "0bc3c344-8bd9-4d56-8066-13f1c926aa7c"
+      },
+      {
+        "id": "1f6f9942-9e14-4b64-aa24-8666505cb4e3",
+        "name": "Training Program",
+        "description": "Educational program to enhance skills",
+        "start_time": "2023-09-20T09:41:59.613Z",
+        "end_time": "2023-09-20T09:25:48.147Z",
+        "created_at": "2023-09-21T02:28:27.528Z",
+        "updated_at": "2023-09-21T06:25:51.908Z",
+        "room_id": "3803b52a-0361-44ba-a6c0-42caf990ad7e"
+      },
+      {
+        "id": "e8ff67e5-102f-49b9-9825-ee843d25090f",
+        "name": "Panel Discussion",
+        "description": "Insightful discussion on current trends",
+        "start_time": "2023-09-21T00:44:48.082Z",
+        "end_time": "2023-09-21T02:34:20.310Z",
+        "created_at": "2023-09-20T18:53:55.671Z",
+        "updated_at": "2023-09-20T20:51:53.325Z",
+        "room_id": "6e0476d4-6eca-47a7-98df-a57500475426"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9766a677-36b3-4fcc-b1b3-fb799e083c18",
+        "email": "Shad_Mraz@roq.tech",
+        "firstName": "Chaim",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42256533",
+        "tenantId": null
+      },
+      {
+        "reference": "266bdf56-ff73-42af-b3a2-9d2bba543807",
+        "email": "Bette_Langworth@roq.tech",
+        "firstName": "Hal",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70145ba7-bc47-47e4-aa6a-5bb52686bcbf",
+        "email": "Angelita11@roq.tech",
+        "firstName": "Koby",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f53e7337-a4e1-4b21-98b5-b721220acab6",
+        "email": "Marvin_Hoeger37@roq.tech",
+        "firstName": "Lucius",
+        "lastName": "Kemmer-Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19110415",
+        "tenantId": null
+      },
+      {
+        "reference": "c872a90f-2a12-4c0c-b6fd-442f948f58e7",
+        "email": "Fleta.Ratke@roq.tech",
+        "firstName": "Celestino",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/46.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "cc547ffc-4559-459b-a9e3-360ce1af7ef0",
+        "team_name": "Development",
+        "role": "Engineer",
+        "start_date": "2023-09-20T21:05:33.610Z",
+        "end_date": "2023-09-20T14:17:16.469Z",
+        "created_at": "2023-09-21T05:53:26.760Z",
+        "updated_at": "2023-09-21T07:51:44.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a393278b-e90e-4b87-9eb5-2f4e1449f44c",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-21T06:28:13.778Z",
+        "end_date": "2023-09-20T17:02:14.850Z",
+        "created_at": "2023-09-20T10:06:04.125Z",
+        "updated_at": "2023-09-20T11:13:32.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94d5cbd4-422f-4237-a4fa-e57319a89a11",
+        "team_name": "Sales",
+        "role": "Salesperson",
+        "start_date": "2023-09-21T01:27:08.884Z",
+        "end_date": "2023-09-21T08:27:29.745Z",
+        "created_at": "2023-09-20T19:18:34.195Z",
+        "updated_at": "2023-09-20T11:22:35.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cee53f09-1815-41f8-b7b4-db34ce022275",
+        "team_name": "Operations",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T11:54:14.657Z",
+        "end_date": "2023-09-20T13:17:26.070Z",
+        "created_at": "2023-09-21T05:11:06.168Z",
+        "updated_at": "2023-09-20T16:50:47.421Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d03e759-6140-471b-b007-bd7a4f687d78",
+        "team_name": "Finance",
+        "role": "Accountant",
+        "start_date": "2023-09-20T21:42:33.790Z",
+        "end_date": "2023-09-21T05:13:25.982Z",
+        "created_at": "2023-09-21T02:56:57.845Z",
+        "updated_at": "2023-09-21T06:09:07.737Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "57013114-b941-4aa6-bb56-97172776bf61",
+        "name": "Conference Room 1",
+        "location": "Floor 1",
+        "capacity": 54789,
+        "description": "Spacious room with modern amenities",
+        "created_at": "2023-09-21T06:56:18.304Z",
+        "updated_at": "2023-09-20T09:40:43.238Z"
+      },
+      {
+        "id": "c70d5d09-5415-4a4f-ab59-ac8d8f6db311",
+        "name": "Meeting Room 2",
+        "location": "Floor 2",
+        "capacity": 95975,
+        "description": "Cozy room with natural lighting",
+        "created_at": "2023-09-20T19:09:06.102Z",
+        "updated_at": "2023-09-20T20:43:07.886Z"
+      },
+      {
+        "id": "1e167f29-d76d-49dc-99a3-5cc07e6f24fc",
+        "name": "Boardroom 3",
+        "location": "Floor 3",
+        "capacity": 40801,
+        "description": "Elegant room with panoramic views",
+        "created_at": "2023-09-20T14:20:44.491Z",
+        "updated_at": "2023-09-20T14:28:42.789Z"
+      },
+      {
+        "id": "2a08aa71-a4ce-4338-a791-a008e70fa20a",
+        "name": "Training Room 4",
+        "location": "Floor 4",
+        "capacity": 88950,
+        "description": "Versatile room for various purposes",
+        "created_at": "2023-09-20T08:56:23.271Z",
+        "updated_at": "2023-09-20T17:11:31.206Z"
+      },
+      {
+        "id": "6dbdaab6-3fb0-4912-ae52-a437a86fc35a",
+        "name": "Breakout Room 5",
+        "location": "Floor 5",
+        "capacity": 72122,
+        "description": "Relaxing room for brainstorming sessions",
+        "created_at": "2023-09-20T10:17:59.152Z",
+        "updated_at": "2023-09-20T17:47:34.738Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "43219124-7851-421e-9812-684d23791cf3",
+        "title": "Weekly Meeting",
+        "start_time": "2023-09-20T14:28:53.559Z",
+        "end_time": "2023-09-21T05:49:23.902Z",
+        "created_at": "2023-09-20T21:08:10.751Z",
+        "updated_at": "2023-09-20T11:51:47.854Z",
+        "room_id": "6dbdaab6-3fb0-4912-ae52-a437a86fc35a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4452f996-66e7-436b-b36f-a3e8a0d4cd49",
+        "title": "Client Presentation",
+        "start_time": "2023-09-21T07:03:43.080Z",
+        "end_time": "2023-09-20T11:31:56.236Z",
+        "created_at": "2023-09-20T16:53:13.454Z",
+        "updated_at": "2023-09-21T04:01:45.321Z",
+        "room_id": "57013114-b941-4aa6-bb56-97172776bf61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "750ad44e-a2fe-451d-9e53-35882db61b33",
+        "title": "Team Training",
+        "start_time": "2023-09-20T09:41:37.409Z",
+        "end_time": "2023-09-21T00:25:11.832Z",
+        "created_at": "2023-09-20T23:07:13.640Z",
+        "updated_at": "2023-09-20T20:25:25.013Z",
+        "room_id": "1e167f29-d76d-49dc-99a3-5cc07e6f24fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fb92b7f-430f-4245-8c9a-71a69b05c7ae",
+        "title": "Project Review",
+        "start_time": "2023-09-20T17:16:21.521Z",
+        "end_time": "2023-09-21T08:08:52.512Z",
+        "created_at": "2023-09-21T08:24:53.479Z",
+        "updated_at": "2023-09-20T14:15:43.251Z",
+        "room_id": "6dbdaab6-3fb0-4912-ae52-a437a86fc35a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9bc5985-41d0-490d-bb68-549f8f50feac",
+        "title": "Board Meeting",
+        "start_time": "2023-09-20T09:21:56.768Z",
+        "end_time": "2023-09-21T01:59:46.487Z",
+        "created_at": "2023-09-20T12:36:58.592Z",
+        "updated_at": "2023-09-21T03:56:35.278Z",
+        "room_id": "1e167f29-d76d-49dc-99a3-5cc07e6f24fc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "0efc0e9a-0083-4415-bc13-c3ef2e0238ab",
+        "name": "Team Building",
+        "description": "Engaging activity to foster team spirit",
+        "start_time": "2023-09-20T18:13:28.948Z",
+        "end_time": "2023-09-20T11:00:01.947Z",
+        "created_at": "2023-09-20T15:32:49.708Z",
+        "updated_at": "2023-09-20T22:21:55.841Z",
+        "room_id": "c70d5d09-5415-4a4f-ab59-ac8d8f6db311"
+      },
+      {
+        "id": "d402dee7-f4c5-496f-8500-cacfe947e4f8",
+        "name": "Workshop",
+        "description": "Interactive session to enhance skills",
+        "start_time": "2023-09-20T14:27:52.921Z",
+        "end_time": "2023-09-20T10:03:12.429Z",
+        "created_at": "2023-09-20T19:26:21.980Z",
+        "updated_at": "2023-09-21T08:01:18.871Z",
+        "room_id": "2a08aa71-a4ce-4338-a791-a008e70fa20a"
+      },
+      {
+        "id": "3d7349ba-5c80-4099-8d73-02cc3bb49536",
+        "name": "Seminar",
+        "description": "Informative event for knowledge sharing",
+        "start_time": "2023-09-20T22:01:59.607Z",
+        "end_time": "2023-09-21T05:10:16.452Z",
+        "created_at": "2023-09-21T04:26:36.060Z",
+        "updated_at": "2023-09-20T16:33:37.485Z",
+        "room_id": "6dbdaab6-3fb0-4912-ae52-a437a86fc35a"
+      },
+      {
+        "id": "82bebd69-aaa7-4869-a822-738760eeb587",
+        "name": "Training Session",
+        "description": "Educational program for professional development",
+        "start_time": "2023-09-21T04:31:02.024Z",
+        "end_time": "2023-09-20T12:32:27.044Z",
+        "created_at": "2023-09-20T14:08:19.336Z",
+        "updated_at": "2023-09-20T23:03:17.378Z",
+        "room_id": "c70d5d09-5415-4a4f-ab59-ac8d8f6db311"
+      },
+      {
+        "id": "ccaae04f-60c0-4d22-a3f0-748f805ea376",
+        "name": "Networking Event",
+        "description": "Social gathering for networking opportunities",
+        "start_time": "2023-09-20T11:08:24.780Z",
+        "end_time": "2023-09-20T09:35:59.138Z",
+        "created_at": "2023-09-21T05:58:04.160Z",
+        "updated_at": "2023-09-20T18:36:42.058Z",
+        "room_id": "1e167f29-d76d-49dc-99a3-5cc07e6f24fc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "374e5c77-8849-4ce1-a7a0-1f334861a1a6",
+        "email": "Kevon_Gislason@roq.tech",
+        "firstName": "Nola",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f075638-6123-498b-80c1-2ec6b98ba759",
+        "email": "Humberto59@roq.tech",
+        "firstName": "Demond",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b493750e-f067-49fc-ba00-04399ffda883",
+        "email": "Urban.McGlynn@roq.tech",
+        "firstName": "Leland",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99345557",
+        "tenantId": null
+      },
+      {
+        "reference": "a4703081-54bc-4745-8237-b7f198e13077",
+        "email": "Meagan91@roq.tech",
+        "firstName": "Assunta",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/258.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5149ffea-e6d0-4e93-8b62-7002a0ce529c",
+        "email": "Ashleigh.Legros@roq.tech",
+        "firstName": "Flossie",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "8f848f65-db31-4e28-aa39-fd1ef78d8564",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T21:31:01.714Z",
+        "end_date": "2023-09-21T03:05:41.880Z",
+        "created_at": "2023-09-20T19:26:04.347Z",
+        "updated_at": "2023-09-21T01:38:33.387Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f91351c3-3867-4567-b4d0-f333af320dd9",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T17:01:59.790Z",
+        "end_date": "2023-09-20T20:16:29.865Z",
+        "created_at": "2023-09-20T15:51:03.141Z",
+        "updated_at": "2023-09-20T12:36:09.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde0c777-6d06-48f3-bee0-0fdf3d23c0b1",
+        "team_name": "Development",
+        "role": "Analyst",
+        "start_date": "2023-09-21T02:25:56.352Z",
+        "end_date": "2023-09-20T11:29:52.926Z",
+        "created_at": "2023-09-20T17:14:20.586Z",
+        "updated_at": "2023-09-20T16:01:29.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b28fe88f-5e81-4d94-83f6-7f1ce8b59582",
+        "team_name": "Finance",
+        "role": "Specialist",
+        "start_date": "2023-09-20T13:21:45.034Z",
+        "end_date": "2023-09-21T04:23:29.991Z",
+        "created_at": "2023-09-21T02:36:34.724Z",
+        "updated_at": "2023-09-21T06:21:53.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90333c81-45eb-4c7a-b226-3d88da8b29ff",
+        "team_name": "Operations",
+        "role": "Assistant",
+        "start_date": "2023-09-20T18:16:26.801Z",
+        "end_date": "2023-09-20T13:49:35.449Z",
+        "created_at": "2023-09-20T18:20:01.961Z",
+        "updated_at": "2023-09-21T07:26:24.646Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "71df6a07-16c8-4802-aead-f88db8ebed7d",
+        "name": "Conference Room A",
+        "location": "Floor 10",
+        "capacity": 42630,
+        "description": "Modern and spacious room",
+        "created_at": "2023-09-20T15:15:49.247Z",
+        "updated_at": "2023-09-21T06:54:01.737Z"
+      },
+      {
+        "id": "58e77bff-b051-4884-ac1e-5c7de9338194",
+        "name": "Meeting Room B",
+        "location": "Floor 5",
+        "capacity": 73528,
+        "description": "Ideal for small meetings",
+        "created_at": "2023-09-20T08:52:01.559Z",
+        "updated_at": "2023-09-21T03:14:22.004Z"
+      },
+      {
+        "id": "8c398442-97e2-402c-9675-8449e2168e74",
+        "name": "Boardroom C",
+        "location": "Floor 2",
+        "capacity": 58984,
+        "description": "Equipped with audiovisual facilities",
+        "created_at": "2023-09-21T06:53:47.896Z",
+        "updated_at": "2023-09-20T15:58:25.410Z"
+      },
+      {
+        "id": "caac140b-36d4-4a87-a2a0-c4d59b9fe289",
+        "name": "Training Room D",
+        "location": "Basement",
+        "capacity": 42351,
+        "description": "Comfortable seating arrangement",
+        "created_at": "2023-09-20T11:30:41.517Z",
+        "updated_at": "2023-09-20T17:56:25.974Z"
+      },
+      {
+        "id": "fe71aabd-ce07-48ae-b1ff-1fba6c00d0ff",
+        "name": "Lounge Area",
+        "location": "Penthouse",
+        "capacity": 40468,
+        "description": "Natural lighting",
+        "created_at": "2023-09-21T02:40:25.661Z",
+        "updated_at": "2023-09-21T07:12:15.877Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "64e000ec-ba13-4eda-9345-997fc41c6ce2",
+        "title": "Team Meeting",
+        "start_time": "2023-09-20T13:55:43.677Z",
+        "end_time": "2023-09-21T03:26:24.019Z",
+        "created_at": "2023-09-20T09:02:16.457Z",
+        "updated_at": "2023-09-21T02:02:46.568Z",
+        "room_id": "caac140b-36d4-4a87-a2a0-c4d59b9fe289",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59f77a5d-047d-499c-af73-1798f71172ae",
+        "title": "Client Presentation",
+        "start_time": "2023-09-21T05:30:11.844Z",
+        "end_time": "2023-09-20T11:55:01.250Z",
+        "created_at": "2023-09-21T01:59:30.633Z",
+        "updated_at": "2023-09-21T00:42:52.355Z",
+        "room_id": "71df6a07-16c8-4802-aead-f88db8ebed7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c4b87a5-b07c-40cf-ad54-7e85b8cb2e01",
+        "title": "Training Session",
+        "start_time": "2023-09-20T23:13:17.728Z",
+        "end_time": "2023-09-21T05:32:58.807Z",
+        "created_at": "2023-09-20T12:18:10.402Z",
+        "updated_at": "2023-09-20T17:00:43.303Z",
+        "room_id": "caac140b-36d4-4a87-a2a0-c4d59b9fe289",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f94ba591-8346-46f6-9fc4-b1c867897e8e",
+        "title": "Project Discussion",
+        "start_time": "2023-09-20T17:20:51.343Z",
+        "end_time": "2023-09-20T19:36:07.168Z",
+        "created_at": "2023-09-20T15:03:28.208Z",
+        "updated_at": "2023-09-20T09:04:42.621Z",
+        "room_id": "8c398442-97e2-402c-9675-8449e2168e74",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11d58091-0212-4c6a-aebd-002f92b2d99d",
+        "title": "Brainstorming Session",
+        "start_time": "2023-09-20T20:39:48.139Z",
+        "end_time": "2023-09-21T03:29:04.118Z",
+        "created_at": "2023-09-20T13:40:59.231Z",
+        "updated_at": "2023-09-20T23:49:49.347Z",
+        "room_id": "caac140b-36d4-4a87-a2a0-c4d59b9fe289",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "5fb8238c-6524-42ce-a2d6-4d3bb46d1e2e",
+        "name": "Team Building Workshop",
+        "description": "Engaging and interactive activities",
+        "start_time": "2023-09-20T20:47:07.497Z",
+        "end_time": "2023-09-21T02:21:12.204Z",
+        "created_at": "2023-09-20T14:22:20.227Z",
+        "updated_at": "2023-09-20T15:42:44.282Z",
+        "room_id": "caac140b-36d4-4a87-a2a0-c4d59b9fe289"
+      },
+      {
+        "id": "264302ab-4303-4edd-92df-c358314853d2",
+        "name": "Networking Event",
+        "description": "Opportunity to connect with industry professionals",
+        "start_time": "2023-09-20T15:09:24.694Z",
+        "end_time": "2023-09-21T04:36:50.360Z",
+        "created_at": "2023-09-20T22:09:17.304Z",
+        "updated_at": "2023-09-20T19:19:28.359Z",
+        "room_id": "71df6a07-16c8-4802-aead-f88db8ebed7d"
+      },
+      {
+        "id": "bc4abdb8-a0d3-4eaa-a516-6bd864cb76e8",
+        "name": "Product Launch",
+        "description": "Showcasing new products and services",
+        "start_time": "2023-09-20T19:28:01.117Z",
+        "end_time": "2023-09-20T19:14:54.183Z",
+        "created_at": "2023-09-20T23:37:10.975Z",
+        "updated_at": "2023-09-21T04:28:40.752Z",
+        "room_id": "71df6a07-16c8-4802-aead-f88db8ebed7d"
+      },
+      {
+        "id": "3fe10c92-2957-41a8-93cb-905407b256a0",
+        "name": "Conference",
+        "description": "Educational sessions and keynote speeches",
+        "start_time": "2023-09-21T02:04:30.595Z",
+        "end_time": "2023-09-20T11:14:57.570Z",
+        "created_at": "2023-09-20T09:44:36.627Z",
+        "updated_at": "2023-09-20T19:35:10.602Z",
+        "room_id": "58e77bff-b051-4884-ac1e-5c7de9338194"
+      },
+      {
+        "id": "f01b95d0-f9e1-4211-afb4-b505bacbb87b",
+        "name": "Training Seminar",
+        "description": "Hands-on learning and skill development",
+        "start_time": "2023-09-21T07:10:28.213Z",
+        "end_time": "2023-09-20T19:05:30.304Z",
+        "created_at": "2023-09-20T17:55:56.161Z",
+        "updated_at": "2023-09-21T01:11:38.876Z",
+        "room_id": "71df6a07-16c8-4802-aead-f88db8ebed7d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6f8cb4d0-aaf3-4566-9a0d-b7072c7a8078",
+        "email": "Mallory_Hilll@roq.tech",
+        "firstName": "Emma",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74988621",
+        "tenantId": null
+      },
+      {
+        "reference": "265e76b3-6bd2-4075-bdd6-578e9202f607",
+        "email": "Erika60@roq.tech",
+        "firstName": "Karelle",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54191624",
+        "tenantId": null
+      },
+      {
+        "reference": "3aabebf5-253c-4e17-8986-9c1e01bbbdb9",
+        "email": "Santos.Wintheiser@roq.tech",
+        "firstName": "Monserrat",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51558767",
+        "tenantId": null
+      },
+      {
+        "reference": "009aad70-715c-46ff-abe8-56e17495dfb3",
+        "email": "Major27@roq.tech",
+        "firstName": "Clementina",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37401280",
+        "tenantId": null
+      },
+      {
+        "reference": "dc438663-84c6-47d8-ba04-5bb110b09581",
+        "email": "Lavina2@roq.tech",
+        "firstName": "Crawford",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52160632",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "f2aca212-6bd8-48ad-8f00-d0a63cb5b868",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T12:38:36.352Z",
+        "end_date": "2023-09-20T18:44:11.463Z",
+        "created_at": "2023-09-20T20:50:50.689Z",
+        "updated_at": "2023-09-20T17:54:18.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe2e48c7-10b7-4305-b92c-bc4bcb35b559",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T16:43:59.810Z",
+        "end_date": "2023-09-20T20:36:03.386Z",
+        "created_at": "2023-09-20T13:52:59.280Z",
+        "updated_at": "2023-09-20T21:05:35.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1122fe29-d6a4-4e39-8d0f-b3c01f6ed395",
+        "team_name": "Development",
+        "role": "Analyst",
+        "start_date": "2023-09-21T00:25:54.328Z",
+        "end_date": "2023-09-20T13:55:43.733Z",
+        "created_at": "2023-09-20T18:17:47.035Z",
+        "updated_at": "2023-09-20T12:35:58.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d54b9d19-e3ab-4b37-8193-e5f90a375f4f",
+        "team_name": "Operations",
+        "role": "Specialist",
+        "start_date": "2023-09-21T07:29:15.835Z",
+        "end_date": "2023-09-20T09:43:54.659Z",
+        "created_at": "2023-09-20T19:57:07.634Z",
+        "updated_at": "2023-09-20T21:33:02.767Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7db1c555-554e-4612-8151-a9fe9b4f8989",
+        "team_name": "Finance",
+        "role": "Assistant",
+        "start_date": "2023-09-21T05:16:10.942Z",
+        "end_date": "2023-09-21T02:29:16.355Z",
+        "created_at": "2023-09-21T04:07:19.055Z",
+        "updated_at": "2023-09-20T14:17:59.963Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "d0e7a315-bda0-4f5e-9280-38ded4ef9aad",
+        "name": "Conference Room A",
+        "location": "Floor 10",
+        "capacity": 2294,
+        "description": "Modern and spacious room with AV equipment",
+        "created_at": "2023-09-21T03:45:07.631Z",
+        "updated_at": "2023-09-20T10:30:21.568Z"
+      },
+      {
+        "id": "a4f573e2-5e21-437a-af9b-a5eaa519264b",
+        "name": "Meeting Room B",
+        "location": "Floor 5",
+        "capacity": 71461,
+        "description": "Cozy room with natural lighting",
+        "created_at": "2023-09-20T16:44:00.199Z",
+        "updated_at": "2023-09-20T21:07:13.128Z"
+      },
+      {
+        "id": "18d39a68-331d-48a9-8020-415b0a15e263",
+        "name": "Boardroom C",
+        "location": "Floor 3",
+        "capacity": 86250,
+        "description": "Professional setup with whiteboard and projector",
+        "created_at": "2023-09-21T01:03:01.674Z",
+        "updated_at": "2023-09-20T11:42:40.593Z"
+      },
+      {
+        "id": "4ed42b29-46d2-446f-9da1-c741b6f53c06",
+        "name": "Training Room D",
+        "location": "Basement",
+        "capacity": 84022,
+        "description": "Versatile space for collaborative work",
+        "created_at": "2023-09-21T01:40:30.914Z",
+        "updated_at": "2023-09-20T13:40:19.564Z"
+      },
+      {
+        "id": "83c8ea1f-19b5-40f4-87c4-a23e209c1ac1",
+        "name": "Breakout Room E",
+        "location": "Penthouse",
+        "capacity": 39593,
+        "description": "Quiet and comfortable environment",
+        "created_at": "2023-09-20T17:57:06.396Z",
+        "updated_at": "2023-09-21T02:59:29.062Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "34505190-ce03-4679-869c-3ab206fc1d9d",
+        "title": "Team Meeting",
+        "start_time": "2023-09-20T21:59:15.916Z",
+        "end_time": "2023-09-21T00:36:36.591Z",
+        "created_at": "2023-09-20T22:31:23.005Z",
+        "updated_at": "2023-09-20T15:07:12.051Z",
+        "room_id": "83c8ea1f-19b5-40f4-87c4-a23e209c1ac1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4e92f30-3e95-450f-816f-c0c051c58016",
+        "title": "Client Presentation",
+        "start_time": "2023-09-20T17:23:51.570Z",
+        "end_time": "2023-09-21T02:04:49.304Z",
+        "created_at": "2023-09-21T06:39:26.078Z",
+        "updated_at": "2023-09-21T08:32:18.795Z",
+        "room_id": "a4f573e2-5e21-437a-af9b-a5eaa519264b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c546f37-4a20-407f-8324-f65f42e40959",
+        "title": "Training Session",
+        "start_time": "2023-09-20T18:35:14.223Z",
+        "end_time": "2023-09-21T07:01:53.499Z",
+        "created_at": "2023-09-20T20:41:07.397Z",
+        "updated_at": "2023-09-20T22:04:09.658Z",
+        "room_id": "18d39a68-331d-48a9-8020-415b0a15e263",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c806555-fd7c-44f7-8022-e2d8637b6d0b",
+        "title": "Project Discussion",
+        "start_time": "2023-09-21T06:10:14.921Z",
+        "end_time": "2023-09-21T06:55:52.622Z",
+        "created_at": "2023-09-21T02:19:30.262Z",
+        "updated_at": "2023-09-21T04:01:18.808Z",
+        "room_id": "4ed42b29-46d2-446f-9da1-c741b6f53c06",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc3ce578-c9b2-47cf-9290-561bbc30bfa9",
+        "title": "Brainstorming Session",
+        "start_time": "2023-09-21T00:01:43.365Z",
+        "end_time": "2023-09-21T06:19:46.660Z",
+        "created_at": "2023-09-21T06:17:40.617Z",
+        "updated_at": "2023-09-20T16:07:12.938Z",
+        "room_id": "83c8ea1f-19b5-40f4-87c4-a23e209c1ac1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "1c00e33a-9871-4ef1-a0af-82c78579672d",
+        "name": "Team Building Workshop",
+        "description": "Engage in team-building activities and games",
+        "start_time": "2023-09-21T00:59:15.959Z",
+        "end_time": "2023-09-20T12:30:41.702Z",
+        "created_at": "2023-09-20T20:55:32.404Z",
+        "updated_at": "2023-09-20T14:12:52.165Z",
+        "room_id": "83c8ea1f-19b5-40f4-87c4-a23e209c1ac1"
+      },
+      {
+        "id": "686c7bc6-cf4a-4023-8399-6276cbda164a",
+        "name": "Networking Event",
+        "description": "Expand professional network and make connections",
+        "start_time": "2023-09-20T19:08:13.015Z",
+        "end_time": "2023-09-20T16:25:38.248Z",
+        "created_at": "2023-09-20T11:35:52.685Z",
+        "updated_at": "2023-09-20T23:45:11.669Z",
+        "room_id": "4ed42b29-46d2-446f-9da1-c741b6f53c06"
+      },
+      {
+        "id": "aabf2a86-ad95-47b1-988d-556c06cb9c35",
+        "name": "Training Seminar",
+        "description": "Attend informative sessions and gain new skills",
+        "start_time": "2023-09-21T03:17:47.817Z",
+        "end_time": "2023-09-21T08:20:51.863Z",
+        "created_at": "2023-09-21T07:10:27.365Z",
+        "updated_at": "2023-09-20T18:17:30.138Z",
+        "room_id": "83c8ea1f-19b5-40f4-87c4-a23e209c1ac1"
+      },
+      {
+        "id": "0bc26f53-356f-4e6e-add6-d6bf763abb98",
+        "name": "Product Launch",
+        "description": "Introduce and showcase new products to the market",
+        "start_time": "2023-09-21T00:59:18.460Z",
+        "end_time": "2023-09-20T22:40:24.242Z",
+        "created_at": "2023-09-21T06:07:12.277Z",
+        "updated_at": "2023-09-21T04:50:34.657Z",
+        "room_id": "d0e7a315-bda0-4f5e-9280-38ded4ef9aad"
+      },
+      {
+        "id": "e29cd376-3b59-4e4c-b38c-69efa9f8ba46",
+        "name": "Company Retreat",
+        "description": "Take a break from work and enjoy recreational activities",
+        "start_time": "2023-09-21T06:38:32.944Z",
+        "end_time": "2023-09-21T08:16:30.244Z",
+        "created_at": "2023-09-20T23:06:57.912Z",
+        "updated_at": "2023-09-20T13:37:58.458Z",
+        "room_id": "4ed42b29-46d2-446f-9da1-c741b6f53c06"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96796c65-d001-4076-aaa7-e22a2bd88a26",
+        "email": "Jamal_Kuhn77@roq.tech",
+        "firstName": "Juliana",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/271.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b03aad2-50b0-426e-91e3-f4d921b1685e",
+        "email": "Tre51@roq.tech",
+        "firstName": "Theodore",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9484d99-a1a2-4c93-89c9-854ae6c85dc3",
+        "email": "Lowell0@roq.tech",
+        "firstName": "Lia",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "774b982f-1d4e-46e2-aee0-dd0f2e714830",
+        "email": "Antoinette_Ebert@roq.tech",
+        "firstName": "Nannie",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26082850",
+        "tenantId": null
+      },
+      {
+        "reference": "c5f79105-90d6-4741-bd32-9c1aa292116f",
+        "email": "Kenyatta_Bins91@roq.tech",
+        "firstName": "Virgie",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/381.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "8ec8d7fd-371a-440a-a214-c5230b75a763",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-21T06:04:17.526Z",
+        "end_date": "2023-09-20T17:14:58.178Z",
+        "created_at": "2023-09-20T18:56:47.704Z",
+        "updated_at": "2023-09-21T02:48:18.054Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80f3c79d-8991-471a-88a0-f0581e5b7df4",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-21T00:46:31.138Z",
+        "end_date": "2023-09-20T12:31:11.829Z",
+        "created_at": "2023-09-20T13:32:03.361Z",
+        "updated_at": "2023-09-20T15:16:44.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62734d34-0c8b-4e8c-ab23-795a388859fb",
+        "team_name": "Product",
+        "role": "Analyst",
+        "start_date": "2023-09-20T13:46:47.906Z",
+        "end_date": "2023-09-21T08:11:21.583Z",
+        "created_at": "2023-09-20T20:02:41.282Z",
+        "updated_at": "2023-09-21T01:00:43.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edc070da-9789-4f20-a50a-45544786acab",
+        "team_name": "Finance",
+        "role": "Assistant",
+        "start_date": "2023-09-21T02:03:26.691Z",
+        "end_date": "2023-09-20T22:26:28.382Z",
+        "created_at": "2023-09-20T13:02:39.814Z",
+        "updated_at": "2023-09-21T05:35:34.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90c798f9-364e-4834-bdd0-c113fa27082c",
+        "team_name": "HR",
+        "role": "Specialist",
+        "start_date": "2023-09-20T12:47:00.075Z",
+        "end_date": "2023-09-20T14:13:39.704Z",
+        "created_at": "2023-09-20T08:59:00.622Z",
+        "updated_at": "2023-09-20T14:41:24.519Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "9b906ad5-4988-4df4-bd70-ed76ae04b8a6",
+        "name": "Conference Room 1",
+        "location": "Floor 5",
+        "capacity": 85264,
+        "description": "Spacious room with natural light",
+        "created_at": "2023-09-20T10:07:32.858Z",
+        "updated_at": "2023-09-20T21:49:22.018Z"
+      },
+      {
+        "id": "f8c16c3a-c5be-4191-a41d-01b7f30f5509",
+        "name": "Meeting Room A",
+        "location": "Level 3",
+        "capacity": 35553,
+        "description": "Modern room with advanced technology",
+        "created_at": "2023-09-21T02:28:18.273Z",
+        "updated_at": "2023-09-20T12:25:07.468Z"
+      },
+      {
+        "id": "4454b35e-376c-4ab6-b391-47b9b2515a4b",
+        "name": "Boardroom B",
+        "location": "Basement",
+        "capacity": 57048,
+        "description": "Cozy room with comfortable seating",
+        "created_at": "2023-09-20T11:52:25.120Z",
+        "updated_at": "2023-09-20T20:46:47.671Z"
+      },
+      {
+        "id": "f8276aad-1663-4ee8-b4e7-52a898508e63",
+        "name": "Training Room 2",
+        "location": "Penthouse",
+        "capacity": 91949,
+        "description": "Professional room with audiovisual equipment",
+        "created_at": "2023-09-21T04:07:38.446Z",
+        "updated_at": "2023-09-20T18:42:46.432Z"
+      },
+      {
+        "id": "701ef638-6151-4996-9bd3-5c5723afc293",
+        "name": "Breakout Room C",
+        "location": "Ground Floor",
+        "capacity": 28104,
+        "description": "Flexible room for various purposes",
+        "created_at": "2023-09-21T03:27:56.550Z",
+        "updated_at": "2023-09-20T16:46:04.800Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "3a1304e3-ccc7-4488-a206-8a30aec58bd9",
+        "title": "Team Meeting",
+        "start_time": "2023-09-20T08:51:01.736Z",
+        "end_time": "2023-09-21T07:58:14.854Z",
+        "created_at": "2023-09-20T18:20:58.008Z",
+        "updated_at": "2023-09-21T07:08:12.203Z",
+        "room_id": "9b906ad5-4988-4df4-bd70-ed76ae04b8a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b6946c5-560e-460f-98da-d23af7b7ef99",
+        "title": "Client Presentation",
+        "start_time": "2023-09-21T03:08:50.488Z",
+        "end_time": "2023-09-20T10:17:26.469Z",
+        "created_at": "2023-09-20T17:46:04.153Z",
+        "updated_at": "2023-09-20T18:50:55.725Z",
+        "room_id": "9b906ad5-4988-4df4-bd70-ed76ae04b8a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a2f8085-6818-4cde-a203-fce85c8cf0f0",
+        "title": "Training Session",
+        "start_time": "2023-09-21T05:08:43.129Z",
+        "end_time": "2023-09-20T17:58:10.108Z",
+        "created_at": "2023-09-20T16:43:47.104Z",
+        "updated_at": "2023-09-20T10:06:57.848Z",
+        "room_id": "4454b35e-376c-4ab6-b391-47b9b2515a4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "019fc731-10c7-438c-98b4-f41661d3bda4",
+        "title": "Project Discussion",
+        "start_time": "2023-09-20T18:44:45.906Z",
+        "end_time": "2023-09-20T14:55:54.397Z",
+        "created_at": "2023-09-20T10:50:43.076Z",
+        "updated_at": "2023-09-20T12:34:46.027Z",
+        "room_id": "701ef638-6151-4996-9bd3-5c5723afc293",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e803537a-79f3-46e8-b431-3a0c8ef376e0",
+        "title": "Board Meeting",
+        "start_time": "2023-09-20T19:30:54.868Z",
+        "end_time": "2023-09-20T16:26:44.516Z",
+        "created_at": "2023-09-20T19:21:53.601Z",
+        "updated_at": "2023-09-20T20:49:36.439Z",
+        "room_id": "f8276aad-1663-4ee8-b4e7-52a898508e63",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "1568087f-92b7-46ee-9092-a42c5cd1e931",
+        "name": "Team Building",
+        "description": "Engaging activity to enhance team dynamics",
+        "start_time": "2023-09-20T15:13:54.428Z",
+        "end_time": "2023-09-20T13:08:39.757Z",
+        "created_at": "2023-09-21T02:08:34.537Z",
+        "updated_at": "2023-09-20T15:34:58.975Z",
+        "room_id": "9b906ad5-4988-4df4-bd70-ed76ae04b8a6"
+      },
+      {
+        "id": "8e321444-2d93-4cf1-bcae-deae5cb5850e",
+        "name": "Workshop",
+        "description": "Interactive session for skill development",
+        "start_time": "2023-09-20T09:14:24.469Z",
+        "end_time": "2023-09-21T03:24:13.030Z",
+        "created_at": "2023-09-21T05:03:22.731Z",
+        "updated_at": "2023-09-20T22:47:37.044Z",
+        "room_id": "701ef638-6151-4996-9bd3-5c5723afc293"
+      },
+      {
+        "id": "84f32bb6-4747-4815-b3e6-039248ad4573",
+        "name": "Seminar",
+        "description": "Informative event with industry experts",
+        "start_time": "2023-09-21T00:21:23.744Z",
+        "end_time": "2023-09-20T22:19:28.161Z",
+        "created_at": "2023-09-20T19:15:00.764Z",
+        "updated_at": "2023-09-20T20:37:31.884Z",
+        "room_id": "9b906ad5-4988-4df4-bd70-ed76ae04b8a6"
+      },
+      {
+        "id": "71cf8f82-1896-42af-a720-f02e18e2025c",
+        "name": "Networking Event",
+        "description": "Opportunity to connect with professionals",
+        "start_time": "2023-09-21T06:10:21.735Z",
+        "end_time": "2023-09-21T01:21:24.784Z",
+        "created_at": "2023-09-20T15:36:35.366Z",
+        "updated_at": "2023-09-20T15:00:56.417Z",
+        "room_id": "4454b35e-376c-4ab6-b391-47b9b2515a4b"
+      },
+      {
+        "id": "af76e4cd-7e96-43e4-ae1b-df2764928ac6",
+        "name": "Training Program",
+        "description": "Educational program for professional growth",
+        "start_time": "2023-09-21T06:30:30.310Z",
+        "end_time": "2023-09-21T06:32:21.356Z",
+        "created_at": "2023-09-21T00:24:29.463Z",
+        "updated_at": "2023-09-21T08:25:11.600Z",
+        "room_id": "f8c16c3a-c5be-4191-a41d-01b7f30f5509"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62c58302-60b6-493f-92af-4969f1e99bbb",
+        "email": "Citlalli15@roq.tech",
+        "firstName": "Darrion",
+        "lastName": "Larson-Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1095.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e11ad23-6c58-4ae9-ad09-7c8b8ed49ec0",
+        "email": "Giovanni.Wolf28@roq.tech",
+        "firstName": "Duncan",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "18eab417-af6d-469f-ac29-c5e7bf77ac58",
+        "email": "Marshall_Koss@roq.tech",
+        "firstName": "Grace",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18719122",
+        "tenantId": null
+      },
+      {
+        "reference": "b16f24f2-7790-4db1-b4ab-46355ab38131",
+        "email": "Desiree72@roq.tech",
+        "firstName": "Luciano",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79367347",
+        "tenantId": null
+      },
+      {
+        "reference": "5395ca6f-ba84-4b1d-9ad3-a2fb49300217",
+        "email": "Maci_Mitchell52@roq.tech",
+        "firstName": "Hal",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23716373",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "99627de6-61f2-4c75-9201-894e571e3833",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T18:14:19.470Z",
+        "end_date": "2023-09-20T22:06:23.023Z",
+        "created_at": "2023-09-20T10:43:24.420Z",
+        "updated_at": "2023-09-20T23:54:30.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13c8f06b-608d-4de8-9d76-c8f7286cf02c",
+        "team_name": "Sales",
+        "role": "Analyst",
+        "start_date": "2023-09-20T18:28:56.284Z",
+        "end_date": "2023-09-21T03:57:56.949Z",
+        "created_at": "2023-09-21T01:42:29.042Z",
+        "updated_at": "2023-09-21T02:41:11.476Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f04c909-c485-4c47-b780-62291fb0400e",
+        "team_name": "Product",
+        "role": "Developer",
+        "start_date": "2023-09-20T22:04:43.901Z",
+        "end_date": "2023-09-20T15:35:20.659Z",
+        "created_at": "2023-09-20T16:25:57.456Z",
+        "updated_at": "2023-09-20T21:55:33.112Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6774eae4-0fc4-4993-9222-9b398cc1a990",
+        "team_name": "Engineering",
+        "role": "Designer",
+        "start_date": "2023-09-21T01:24:43.550Z",
+        "end_date": "2023-09-20T14:12:40.711Z",
+        "created_at": "2023-09-21T04:34:15.971Z",
+        "updated_at": "2023-09-21T00:13:46.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a72e5d81-b048-4173-a6f6-8df4271c180b",
+        "team_name": "Finance",
+        "role": "Accountant",
+        "start_date": "2023-09-21T03:06:02.848Z",
+        "end_date": "2023-09-20T11:56:08.101Z",
+        "created_at": "2023-09-20T23:47:05.429Z",
+        "updated_at": "2023-09-20T18:24:30.886Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "6b7589df-945b-40bf-a9d2-29174a74f118",
+        "name": "Conference Room 1",
+        "location": "Floor 5",
+        "capacity": 40139,
+        "description": "Spacious room with natural light",
+        "created_at": "2023-09-20T13:08:38.027Z",
+        "updated_at": "2023-09-20T08:52:18.823Z"
+      },
+      {
+        "id": "b5bdda48-8638-446e-835f-bd0c4a1baa82",
+        "name": "Meeting Room A",
+        "location": "Floor 2",
+        "capacity": 96100,
+        "description": "Modern room with state-of-the-art equipment",
+        "created_at": "2023-09-20T18:29:31.510Z",
+        "updated_at": "2023-09-21T08:13:15.160Z"
+      },
+      {
+        "id": "5040c81f-1c26-4b43-b6e6-a5a393ffc6f5",
+        "name": "Boardroom",
+        "location": "Basement",
+        "capacity": 53087,
+        "description": "Cozy room with comfortable seating",
+        "created_at": "2023-09-20T08:55:22.760Z",
+        "updated_at": "2023-09-20T12:47:45.297Z"
+      },
+      {
+        "id": "5c3c6cec-351a-4fb5-a654-2b4c8cf155fa",
+        "name": "Training Room B",
+        "location": "Penthouse",
+        "capacity": 87226,
+        "description": "Versatile room for various purposes",
+        "created_at": "2023-09-21T08:37:38.186Z",
+        "updated_at": "2023-09-20T22:14:28.800Z"
+      },
+      {
+        "id": "0adaf192-66f8-4901-836e-a4d67b72dfa9",
+        "name": "Breakout Room",
+        "location": "Annex",
+        "capacity": 29675,
+        "description": "Elegant room with panoramic views",
+        "created_at": "2023-09-21T06:56:43.477Z",
+        "updated_at": "2023-09-21T05:52:49.172Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f175a9eb-d9eb-403b-94fd-884c990f9096",
+        "title": "Team Meeting",
+        "start_time": "2023-09-21T04:09:55.680Z",
+        "end_time": "2023-09-21T05:59:01.760Z",
+        "created_at": "2023-09-20T14:50:27.956Z",
+        "updated_at": "2023-09-20T15:32:28.289Z",
+        "room_id": "b5bdda48-8638-446e-835f-bd0c4a1baa82",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6c482ee-6e01-41cb-8fcf-9aee138a801c",
+        "title": "Client Presentation",
+        "start_time": "2023-09-20T13:35:21.755Z",
+        "end_time": "2023-09-21T02:04:19.811Z",
+        "created_at": "2023-09-21T06:09:57.579Z",
+        "updated_at": "2023-09-20T18:46:03.407Z",
+        "room_id": "5c3c6cec-351a-4fb5-a654-2b4c8cf155fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75bf8339-5594-4220-8d9f-77feec0a12ae",
+        "title": "Training Session",
+        "start_time": "2023-09-20T11:14:46.742Z",
+        "end_time": "2023-09-20T17:11:41.793Z",
+        "created_at": "2023-09-20T20:35:11.778Z",
+        "updated_at": "2023-09-20T23:56:12.184Z",
+        "room_id": "0adaf192-66f8-4901-836e-a4d67b72dfa9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3af1563-09a5-445f-bb12-d3c8569c26aa",
+        "title": "Project Review",
+        "start_time": "2023-09-20T13:31:20.107Z",
+        "end_time": "2023-09-21T01:07:04.112Z",
+        "created_at": "2023-09-20T10:19:38.928Z",
+        "updated_at": "2023-09-20T13:44:34.297Z",
+        "room_id": "6b7589df-945b-40bf-a9d2-29174a74f118",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f20391e4-f6b6-4d04-9d3e-adefba7d97bf",
+        "title": "Brainstorming Session",
+        "start_time": "2023-09-20T09:38:13.839Z",
+        "end_time": "2023-09-21T05:03:02.420Z",
+        "created_at": "2023-09-20T18:47:19.795Z",
+        "updated_at": "2023-09-20T17:57:05.337Z",
+        "room_id": "0adaf192-66f8-4901-836e-a4d67b72dfa9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "64deb00a-7460-4f87-a9a8-226fc95e7f36",
+        "name": "Team Building",
+        "description": "Engaging activity to foster team spirit",
+        "start_time": "2023-09-21T00:52:57.619Z",
+        "end_time": "2023-09-21T07:04:36.080Z",
+        "created_at": "2023-09-20T09:12:29.827Z",
+        "updated_at": "2023-09-21T02:57:04.719Z",
+        "room_id": "5040c81f-1c26-4b43-b6e6-a5a393ffc6f5"
+      },
+      {
+        "id": "5bddd682-4e53-47d4-8d6a-64fd9a3ab9ef",
+        "name": "Workshop",
+        "description": "Interactive session to enhance skills",
+        "start_time": "2023-09-21T08:20:39.882Z",
+        "end_time": "2023-09-20T21:03:48.575Z",
+        "created_at": "2023-09-20T21:23:30.098Z",
+        "updated_at": "2023-09-20T13:09:29.228Z",
+        "room_id": "0adaf192-66f8-4901-836e-a4d67b72dfa9"
+      },
+      {
+        "id": "25276b19-5123-486e-b38b-fdadf8557872",
+        "name": "Training Program",
+        "description": "Educational program for professional development",
+        "start_time": "2023-09-20T12:41:21.028Z",
+        "end_time": "2023-09-21T07:44:32.300Z",
+        "created_at": "2023-09-20T19:07:36.756Z",
+        "updated_at": "2023-09-20T22:37:40.033Z",
+        "room_id": "5c3c6cec-351a-4fb5-a654-2b4c8cf155fa"
+      },
+      {
+        "id": "9c17c4a6-2110-4553-8685-c3e43b8a03cb",
+        "name": "Networking Event",
+        "description": "Opportunity to connect with industry experts",
+        "start_time": "2023-09-20T20:59:04.035Z",
+        "end_time": "2023-09-20T14:28:11.283Z",
+        "created_at": "2023-09-20T08:59:42.237Z",
+        "updated_at": "2023-09-21T05:05:17.439Z",
+        "room_id": "5c3c6cec-351a-4fb5-a654-2b4c8cf155fa"
+      },
+      {
+        "id": "658c7309-6b54-43d8-b0c6-71fb50484d5e",
+        "name": "Panel Discussion",
+        "description": "Informative discussion on current trends",
+        "start_time": "2023-09-21T00:43:22.844Z",
+        "end_time": "2023-09-20T18:47:03.731Z",
+        "created_at": "2023-09-21T06:32:42.556Z",
+        "updated_at": "2023-09-21T00:56:29.082Z",
+        "room_id": "6b7589df-945b-40bf-a9d2-29174a74f118"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0975bcd7-514c-4d5a-949d-06ebb939dd0d",
+        "email": "Issac.Predovic@roq.tech",
+        "firstName": "Jaycee",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f718975c-6603-458d-bda7-c1d682e351fd",
+        "email": "Arvid20@roq.tech",
+        "firstName": "Selina",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80539948",
+        "tenantId": null
+      },
+      {
+        "reference": "f38e075f-fc7e-4087-9a7c-c036992640c5",
+        "email": "Clarissa_Oberbrunner@roq.tech",
+        "firstName": "Alvena",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69c3b6a9-4d8a-4d19-a5e6-6a1e12e0ce27",
+        "email": "Myles_Beier17@roq.tech",
+        "firstName": "Luz",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/960.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b076f23-395f-460a-a4db-cf68788204ab",
+        "email": "Mariam26@roq.tech",
+        "firstName": "Emelia",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/958.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "bd7ccb5a-faf2-491e-9ac1-1c5a3211ef4b",
+        "team_name": "Development",
+        "role": "Engineer",
+        "start_date": "2023-09-20T17:18:47.722Z",
+        "end_date": "2023-09-21T06:07:54.611Z",
+        "created_at": "2023-09-20T19:45:20.299Z",
+        "updated_at": "2023-09-20T11:38:15.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5778b6d-2d98-4e4c-b73a-f7e755415894",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T10:47:10.038Z",
+        "end_date": "2023-09-20T14:38:57.044Z",
+        "created_at": "2023-09-21T03:23:13.616Z",
+        "updated_at": "2023-09-20T12:17:10.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e2f5933-bd9a-4793-b3cf-448f44e7cd27",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-20T16:34:47.641Z",
+        "end_date": "2023-09-20T11:11:31.149Z",
+        "created_at": "2023-09-21T01:33:04.133Z",
+        "updated_at": "2023-09-21T06:02:46.236Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bcc33ab-2a2c-4953-97fc-1e49eeec20e7",
+        "team_name": "Operations",
+        "role": "Analyst",
+        "start_date": "2023-09-21T04:02:32.367Z",
+        "end_date": "2023-09-20T20:12:14.205Z",
+        "created_at": "2023-09-21T08:35:36.441Z",
+        "updated_at": "2023-09-20T15:33:25.677Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "034cdc89-3cbb-4b67-9400-6da6bca7a720",
+        "team_name": "Finance",
+        "role": "Supervisor",
+        "start_date": "2023-09-21T01:24:01.439Z",
+        "end_date": "2023-09-20T18:55:30.974Z",
+        "created_at": "2023-09-20T14:22:04.594Z",
+        "updated_at": "2023-09-21T02:45:37.196Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "aabd28af-e320-4ab3-bbdf-99e71ec9a96a",
+        "name": "Conference Room 1",
+        "location": "Floor 1",
+        "capacity": 52408,
+        "description": "Spacious room with modern amenities",
+        "created_at": "2023-09-21T01:28:32.542Z",
+        "updated_at": "2023-09-20T10:37:51.892Z"
+      },
+      {
+        "id": "01c82ffb-0d64-4644-943d-94a76617f898",
+        "name": "Meeting Room 2",
+        "location": "Floor 2",
+        "capacity": 23444,
+        "description": "Ideal for small group meetings",
+        "created_at": "2023-09-21T05:52:05.470Z",
+        "updated_at": "2023-09-21T00:42:28.101Z"
+      },
+      {
+        "id": "24b2209e-7d19-4167-b2dd-3869d28b357a",
+        "name": "Boardroom 3",
+        "location": "Floor 3",
+        "capacity": 91532,
+        "description": "Equipped with audio-visual facilities",
+        "created_at": "2023-09-20T14:29:30.061Z",
+        "updated_at": "2023-09-20T18:12:13.975Z"
+      },
+      {
+        "id": "40fe3358-84ce-41d5-8a8f-46d4782ea772",
+        "name": "Training Room 4",
+        "location": "Floor 4",
+        "capacity": 28212,
+        "description": "Perfect for workshops and seminars",
+        "created_at": "2023-09-20T12:54:31.175Z",
+        "updated_at": "2023-09-21T02:38:42.103Z"
+      },
+      {
+        "id": "b5679ee8-959a-4063-b605-acb5d8c4678b",
+        "name": "Breakout Room 5",
+        "location": "Floor 5",
+        "capacity": 26876,
+        "description": "Comfortable seating arrangement",
+        "created_at": "2023-09-20T22:43:56.091Z",
+        "updated_at": "2023-09-21T04:39:48.157Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "dbea5712-1a3b-4a3d-b14c-e3f5aa973179",
+        "title": "Weekly Team Meeting",
+        "start_time": "2023-09-20T20:18:49.491Z",
+        "end_time": "2023-09-21T01:54:15.905Z",
+        "created_at": "2023-09-20T14:17:02.550Z",
+        "updated_at": "2023-09-20T12:30:56.304Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93172e0a-9fc0-4d11-9df4-18c5811a8169",
+        "title": "Client Presentation",
+        "start_time": "2023-09-20T15:40:51.386Z",
+        "end_time": "2023-09-20T11:00:19.232Z",
+        "created_at": "2023-09-20T15:49:15.923Z",
+        "updated_at": "2023-09-20T10:33:36.021Z",
+        "room_id": "aabd28af-e320-4ab3-bbdf-99e71ec9a96a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f1c8d3-ca83-46a9-b349-158d3caec85f",
+        "title": "Project Kickoff",
+        "start_time": "2023-09-21T03:20:15.595Z",
+        "end_time": "2023-09-20T16:34:19.971Z",
+        "created_at": "2023-09-20T22:19:35.987Z",
+        "updated_at": "2023-09-20T22:49:42.268Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5647e92-c239-44af-8857-8a8a9d1b0d80",
+        "title": "Training Session",
+        "start_time": "2023-09-21T05:52:04.392Z",
+        "end_time": "2023-09-20T13:34:31.051Z",
+        "created_at": "2023-09-20T17:48:03.955Z",
+        "updated_at": "2023-09-20T22:36:31.699Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e341d945-1c8f-45e7-97da-613b4b7e054c",
+        "title": "Board Meeting",
+        "start_time": "2023-09-20T09:07:19.057Z",
+        "end_time": "2023-09-20T16:05:24.350Z",
+        "created_at": "2023-09-20T11:17:01.978Z",
+        "updated_at": "2023-09-21T07:16:16.818Z",
+        "room_id": "aabd28af-e320-4ab3-bbdf-99e71ec9a96a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "da96cedc-3e2d-4656-ba75-56b3a08903fe",
+        "name": "Team Building Exercise",
+        "description": "Interactive activity to foster team spirit",
+        "start_time": "2023-09-21T08:12:32.038Z",
+        "end_time": "2023-09-20T11:20:14.939Z",
+        "created_at": "2023-09-21T03:52:22.892Z",
+        "updated_at": "2023-09-21T02:49:58.461Z",
+        "room_id": "01c82ffb-0d64-4644-943d-94a76617f898"
+      },
+      {
+        "id": "a62b91c7-c653-4dc8-84c3-19f9b6487dfd",
+        "name": "Workshop on Leadership",
+        "description": "Developing leadership skills through practical exercises",
+        "start_time": "2023-09-20T09:23:58.861Z",
+        "end_time": "2023-09-21T03:06:31.661Z",
+        "created_at": "2023-09-21T03:46:39.854Z",
+        "updated_at": "2023-09-20T18:23:34.426Z",
+        "room_id": "01c82ffb-0d64-4644-943d-94a76617f898"
+      },
+      {
+        "id": "e3882f54-00ba-46d1-ab08-009a56260c92",
+        "name": "Presentation Skills Training",
+        "description": "Enhancing presentation skills through practice and feedback",
+        "start_time": "2023-09-20T13:43:23.650Z",
+        "end_time": "2023-09-20T11:09:44.650Z",
+        "created_at": "2023-09-21T04:58:47.991Z",
+        "updated_at": "2023-09-20T23:51:04.905Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772"
+      },
+      {
+        "id": "a27fd9db-3b1f-4cc8-abc6-8920cba95111",
+        "name": "Problem Solving Session",
+        "description": "Collaborative session to solve complex problems",
+        "start_time": "2023-09-20T15:54:58.306Z",
+        "end_time": "2023-09-20T15:15:33.355Z",
+        "created_at": "2023-09-20T11:29:10.868Z",
+        "updated_at": "2023-09-20T22:02:48.868Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772"
+      },
+      {
+        "id": "22ff5a9d-7ed3-4a5d-bbc5-e34655252f88",
+        "name": "Time Management Workshop",
+        "description": "Effective techniques for managing time and prioritizing tasks",
+        "start_time": "2023-09-20T11:51:21.279Z",
+        "end_time": "2023-09-20T17:16:10.810Z",
+        "created_at": "2023-09-20T11:52:31.036Z",
+        "updated_at": "2023-09-20T22:29:45.226Z",
+        "room_id": "40fe3358-84ce-41d5-8a8f-46d4782ea772"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa0f9bc1-e721-4cc4-91ff-321ff9bf51de",
+        "email": "Edmond_Stokes68@roq.tech",
+        "firstName": "Robb",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67242545",
+        "tenantId": null
+      },
+      {
+        "reference": "c38a6df2-adfe-42e5-a9d6-b191fab8f100",
+        "email": "Ethyl58@roq.tech",
+        "firstName": "Robbie",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "239cbeaa-5d2a-41da-9052-b467af4270d5",
+        "email": "Lea60@roq.tech",
+        "firstName": "Moises",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11104689",
+        "tenantId": null
+      },
+      {
+        "reference": "c50429f0-de57-4a96-95e3-f20c92b7db98",
+        "email": "Lyla_Rau74@roq.tech",
+        "firstName": "Terrence",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76581045",
+        "tenantId": null
+      },
+      {
+        "reference": "b2fa2316-efe2-4f63-a62f-bcbf6f1d39b3",
+        "email": "Oda_Dooley-Beatty@roq.tech",
+        "firstName": "Alysa",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49104150",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "29561315-928b-42f5-af3f-9a866c4076af",
+        "team_name": "Marketing",
+        "role": "Manager",
+        "start_date": "2023-09-20T09:21:50.429Z",
+        "end_date": "2023-09-20T21:29:55.249Z",
+        "created_at": "2023-09-20T15:42:25.354Z",
+        "updated_at": "2023-09-20T14:53:14.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "316bc6de-60ef-4f8b-aff5-581b958765af",
+        "team_name": "Sales",
+        "role": "Coordinator",
+        "start_date": "2023-09-21T08:41:50.675Z",
+        "end_date": "2023-09-20T20:58:43.841Z",
+        "created_at": "2023-09-21T02:59:15.847Z",
+        "updated_at": "2023-09-21T07:36:11.151Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72a75e34-8ff0-4528-8bf3-f31e328542dd",
+        "team_name": "Engineering",
+        "role": "Developer",
+        "start_date": "2023-09-21T02:33:53.207Z",
+        "end_date": "2023-09-21T06:03:14.026Z",
+        "created_at": "2023-09-20T10:57:51.308Z",
+        "updated_at": "2023-09-20T11:14:59.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38dd50d-4afa-494e-919b-512510010b1f",
+        "team_name": "Finance",
+        "role": "Analyst",
+        "start_date": "2023-09-21T08:42:26.837Z",
+        "end_date": "2023-09-20T10:04:56.415Z",
+        "created_at": "2023-09-20T21:05:44.846Z",
+        "updated_at": "2023-09-20T11:57:30.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2f7e03b-fbca-40af-8556-1dac17f1c599",
+        "team_name": "HR",
+        "role": "Recruiter",
+        "start_date": "2023-09-21T04:45:38.458Z",
+        "end_date": "2023-09-21T05:01:52.738Z",
+        "created_at": "2023-09-20T19:07:22.941Z",
+        "updated_at": "2023-09-20T22:07:17.141Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "room": [
+      {
+        "id": "0ec07f9a-1e2e-4320-a82d-92e7ee8280ae",
+        "name": "Conference Room 1",
+        "location": "Floor 5",
+        "capacity": 83554,
+        "description": "Spacious room with modern amenities",
+        "created_at": "2023-09-20T14:46:03.789Z",
+        "updated_at": "2023-09-21T04:07:50.635Z"
+      },
+      {
+        "id": "64ba62e5-0e3f-41c3-81bd-c78c05d9ef69",
+        "name": "Meeting Room A",
+        "location": "Floor 2",
+        "capacity": 27761,
+        "description": "Cozy room with natural lighting",
+        "created_at": "2023-09-21T03:50:47.817Z",
+        "updated_at": "2023-09-20T22:44:07.484Z"
+      },
+      {
+        "id": "56540ea1-f827-4538-ac36-fd1a35bf0d91",
+        "name": "Boardroom B",
+        "location": "Basement",
+        "capacity": 30209,
+        "description": "Quiet room for focused discussions",
+        "created_at": "2023-09-20T15:27:16.283Z",
+        "updated_at": "2023-09-20T22:11:16.612Z"
+      },
+      {
+        "id": "a525ee02-3f60-4f5d-b323-bfe3c114e981",
+        "name": "Training Room 2",
+        "location": "Penthouse",
+        "capacity": 36311,
+        "description": "Versatile room for various purposes",
+        "created_at": "2023-09-20T09:44:06.913Z",
+        "updated_at": "2023-09-21T03:19:35.599Z"
+      },
+      {
+        "id": "d728a1bf-9c14-48de-bfe0-0d554a23667c",
+        "name": "Office Room 3",
+        "location": "Ground Floor",
+        "capacity": 41538,
+        "description": "Elegant room with comfortable seating",
+        "created_at": "2023-09-21T05:31:20.769Z",
+        "updated_at": "2023-09-20T12:56:34.199Z"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "81929e0f-fbc9-467d-8cfc-0b49a03509e2",
+        "title": "Project Meeting",
+        "start_time": "2023-09-20T11:17:48.155Z",
+        "end_time": "2023-09-21T02:12:12.581Z",
+        "created_at": "2023-09-20T10:16:37.291Z",
+        "updated_at": "2023-09-20T14:34:28.554Z",
+        "room_id": "a525ee02-3f60-4f5d-b323-bfe3c114e981",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b8dff2f-dd31-498b-af94-686bce17007b",
+        "title": "Training Session",
+        "start_time": "2023-09-21T00:19:19.552Z",
+        "end_time": "2023-09-20T17:45:05.958Z",
+        "created_at": "2023-09-20T15:42:10.985Z",
+        "updated_at": "2023-09-20T23:22:26.314Z",
+        "room_id": "64ba62e5-0e3f-41c3-81bd-c78c05d9ef69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3139bd0-a34c-4803-bd0e-4d346e1d78d5",
+        "title": "Client Presentation",
+        "start_time": "2023-09-21T08:10:13.761Z",
+        "end_time": "2023-09-20T21:23:24.364Z",
+        "created_at": "2023-09-20T15:42:06.078Z",
+        "updated_at": "2023-09-21T03:32:52.633Z",
+        "room_id": "a525ee02-3f60-4f5d-b323-bfe3c114e981",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3dd8382f-37ac-436e-b146-8a28d3584375",
+        "title": "Team Discussion",
+        "start_time": "2023-09-21T03:48:36.002Z",
+        "end_time": "2023-09-20T09:51:30.101Z",
+        "created_at": "2023-09-20T17:11:01.038Z",
+        "updated_at": "2023-09-21T02:46:10.900Z",
+        "room_id": "56540ea1-f827-4538-ac36-fd1a35bf0d91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cf8f8dc-db7f-46b0-89fe-708a2c6a6844",
+        "title": "Board Meeting",
+        "start_time": "2023-09-21T05:31:52.666Z",
+        "end_time": "2023-09-20T14:13:18.217Z",
+        "created_at": "2023-09-20T10:15:42.257Z",
+        "updated_at": "2023-09-20T16:01:20.109Z",
+        "room_id": "a525ee02-3f60-4f5d-b323-bfe3c114e981",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "472f26c5-4727-4639-9117-15bde5570485",
+        "name": "Workshop",
+        "description": "Interactive learning experience",
+        "start_time": "2023-09-21T05:53:54.996Z",
+        "end_time": "2023-09-21T00:30:24.983Z",
+        "created_at": "2023-09-21T07:03:38.877Z",
+        "updated_at": "2023-09-20T21:52:57.379Z",
+        "room_id": "64ba62e5-0e3f-41c3-81bd-c78c05d9ef69"
+      },
+      {
+        "id": "f59f8f3e-8b44-414c-8848-22c734b4cf0e",
+        "name": "Seminar",
+        "description": "Expert speakers and industry insights",
+        "start_time": "2023-09-20T21:19:01.370Z",
+        "end_time": "2023-09-21T06:35:01.732Z",
+        "created_at": "2023-09-20T16:22:54.384Z",
+        "updated_at": "2023-09-20T12:50:56.521Z",
+        "room_id": "56540ea1-f827-4538-ac36-fd1a35bf0d91"
+      },
+      {
+        "id": "0387fad0-1585-4622-a47d-24ac1af38c46",
+        "name": "Training",
+        "description": "Skill development and hands-on exercises",
+        "start_time": "2023-09-21T00:43:15.306Z",
+        "end_time": "2023-09-20T15:19:34.931Z",
+        "created_at": "2023-09-21T00:54:35.540Z",
+        "updated_at": "2023-09-21T07:57:45.925Z",
+        "room_id": "0ec07f9a-1e2e-4320-a82d-92e7ee8280ae"
+      },
+      {
+        "id": "0f0e4f76-4aa2-4681-956e-58281d502d6e",
+        "name": "Conference",
+        "description": "Networking and knowledge sharing",
+        "start_time": "2023-09-20T11:01:34.276Z",
+        "end_time": "2023-09-20T18:08:20.391Z",
+        "created_at": "2023-09-21T03:56:16.534Z",
+        "updated_at": "2023-09-20T18:22:16.620Z",
+        "room_id": "0ec07f9a-1e2e-4320-a82d-92e7ee8280ae"
+      },
+      {
+        "id": "db53f322-2912-49fd-aed5-6d555d4a6e29",
+        "name": "Webinar",
+        "description": "Online event accessible from anywhere",
+        "start_time": "2023-09-20T20:14:58.623Z",
+        "end_time": "2023-09-21T03:27:58.116Z",
+        "created_at": "2023-09-20T18:55:31.557Z",
+        "updated_at": "2023-09-20T12:57:24.875Z",
+        "room_id": "56540ea1-f827-4538-ac36-fd1a35bf0d91"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5f1b5ea7-8c65-408e-81cd-e18709466a2c",
+        "email": "Davin14@roq.tech",
+        "firstName": "Deion",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75078276",
+        "tenantId": null
+      },
+      {
+        "reference": "30a674d8-3acf-4e70-b81b-5c23404e5a53",
+        "email": "Virginia.Armstrong@roq.tech",
+        "firstName": "Henry",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/733.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41cd6c5d-34ca-440e-b4b8-8e45fbdcf560",
+        "email": "Dolores.Purdy57@roq.tech",
+        "firstName": "Yadira",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78953946",
+        "tenantId": null
+      },
+      {
+        "reference": "9ab6b050-216b-40a2-9b6c-dab4fde473f5",
+        "email": "Monserrate8@roq.tech",
+        "firstName": "Devyn",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/787.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7a5bc56-cef1-4f43-81e5-332fb79afaa4",
+        "email": "Blair_Lubowitz50@roq.tech",
+        "firstName": "Rafael",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5218654",
+        "tenantId": null
+      }
+    ]
+  }
+]
